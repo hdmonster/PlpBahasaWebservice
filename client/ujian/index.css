@@ -5,7 +5,7 @@ body {
 
 .mainDiv {
     height: 100%;
-    background-color: lightgrey;
+    
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -43,4 +43,31 @@ body {
 }
 
 .bodyDiv {
+}
+
+.VocabQDiv {
+    text-align: center;
+    padding: 10px;
+}
+
+.VocabQuestion {
+    text-align: right;
+}
+
+.rulesQDiv {
+    text-align: center;
+    padding : 10px;
+}
+
+.rulesQuestion {
+    text-align: right;
+}
+
+.pickDiv {
+    text-align: right;
+    padding: 10px;
+    /*
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    */
 }
