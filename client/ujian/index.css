@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    width: 100%;
+}
+
+.mainDiv {
+    height: 100%;
+    background-color: lightgrey;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.headerDiv {
+    text-align: center;
+}
+
+.examTitle {
+    font-size: 28px;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%;
+}
+
+.additionalDiv {
+    border: 2px solid black;
+    margin-top: -20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.examLevel {
+    font-size: 24px;
+}
+
+.examType {
+    font-size: 24px;
+}
+
+.nameDiv {
+    text-align: right;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.bodyDiv {
+}
