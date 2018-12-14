@@ -1,7 +1,4 @@
-<?php
-    $Variabel = "Lele ayam";
-?>
-
+<?php include '../../connections/ujian/read.php'?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -213,5 +210,11 @@
         </div>
         <!--BODY END-->
     </div> 
+<?php
+    while ($row = mysqli_fetch_array($result)) {
+
+    $soal = $row['soal'];
+
+?>
 </body>
 </html>
