@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,10 +17,13 @@
     <script type="text/javascript" src="http://livejs.com/live.js"></script>
 </head>
 <body>
+    <?php
+        $Variabel = "Lele ayam";
+    ?>
     <div class="mainDiv">
         <!--HEADER START-->
         <div class="headerDiv">
-            <p class="examTitle">PLP BAHASA ARAB TALAQQI</p>
+            <p class="examTitle">Title: <?php echo $Variabel; ?></p>
             <div class="additionalDiv"> 
                 <p class="examLevel">Level 0</p>
                 <p class="examType">Ujian 1 Tulis</p>
@@ -150,7 +155,7 @@
             </div>
             <!--RULES AND READING SECTION END-->
             <hr/>
-            <!--PICK WORDS SEACTION START-->
+            <!--PICK WORDS SECTION START-->
             <div class="pickDiv">
                 <!--PERINTAH PERTANYAAN-->
                 <b><span>Isilah yang kosong dengan memilih kata</span></b>
@@ -171,7 +176,41 @@
                 </div>
                 <span>Kamu___orang yang pintar</span>
             </div>
-            <!--PICK WORDS SEACTION END-->
+            <!--PICK WORDS SECTION END-->
+            <hr/>
+            <div class="pickNumberDiv">
+                <!--PERINTAH PERTANYAAN-->
+                <b><span>Isilah titik di bawah dengan nomor</span></b>
+                <br/>
+                <br/>
+                <!--TABEL JAWABAN-->
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Kata</th>
+                            <th>Kata</th>
+                            <th>Kata</th>
+                        </tr>
+                        <tr>
+                            <th>Kata</th>
+                            <th>Kata</th>
+                            <th>Kata</th>
+                        </tr>
+                        <tr>
+                            <th>Kata</th>
+                            <th>Kata</th>
+                            <th>Kata</th>
+                            </tr>
+                    </tbody>
+                </table>
+                <br/>
+                <!--KALIMAT-->
+                <div>
+                    <p>Angkasa tersebut_____indah</p>
+                    <p>Angkasa tersebut_____indah</p>
+                    <p>Angkasa tersebut_____indah</p>
+                </div>
+            </div>
         </div>
         <!--BODY END-->
     </div> 

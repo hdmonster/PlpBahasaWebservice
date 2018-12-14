@@ -5,7 +5,6 @@ body {
 
 .mainDiv {
     height: 100%;
-    
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -37,12 +36,13 @@ body {
 }
 
 .nameDiv {
-    text-align: right;
+    text-align: left;
     padding: 10px;
     border: 2px solid black;
 }
 
 .bodyDiv {
+    padding: 20px
 }
 
 .VocabQDiv {
@@ -70,4 +70,9 @@ body {
     direction: rtl;
     unicode-bidi: bidi-override;
     */
+}
+
+.pickNumberDiv {
+    text-align: right;
+    padding: 10px;
 }
